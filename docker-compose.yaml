@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   frontend:
-    image: venkynagidi/backend:one
+    image: backend:$BUILD_TAG
     ports:
       - "8083:8083"
     networks:
