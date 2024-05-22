@@ -1,0 +1,50 @@
+{
+  "host": {
+    "doc": "database hostname",
+    "default": "0.0.0.0",
+    "env": "DB_HOST"
+  },
+  "port": {
+    "doc": "database port",
+    "format": "int",
+    "env": "DB_PORT",
+    "default": 27017
+  },
+  "database": {
+    "default": "dbName",
+    "env": "DB_NAME"
+  },
+  "hosts": ["localhost", "localhost", "localhost"],
+  "ports": [27017, 27017, 27017],
+  "replEnabled": {
+    "default": false
+  },
+  "replName": {
+    "default": "rs0"
+  },
+  "writeconcern": {
+    "doc": "the write concern for the connection",
+    "default": 1
+  },
+  "maxTimeMS": 5000,
+  "authEnabled": {
+    "default": false,
+    "env": "DB_AUTH_ENABLED"
+  },
+  "userName": {
+    "default": "",
+    "env": "DB_USERNAME"
+  },
+  "password": {
+    "default": "",
+    "env": "DB_PASSWORD"
+  },
+  "authSource": {
+    "default": "upsc",
+    "env": "DB_AUTH_SOURCE"
+  },
+  "authMechanism": {
+    "default": "SCRAM-SHA-1",
+    "env": "DB_AUTH_MACHANISM"
+  }
+}

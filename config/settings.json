@@ -1,0 +1,34 @@
+{
+    "pricing":{
+        "slotBooking":{
+            "studyAbroad":{
+                "group": {
+                    "inr":1200,
+                    "usd":20
+                },
+                "single": {
+                    "inr":2100,
+                    "usd":30
+                }
+              },
+            "visaQna":{
+                "group": {
+                    "inr":1500,
+                    "usd":25
+                },
+                "single": {
+                    "inr":2800,
+                    "usd":40
+                }
+              }
+        },
+        "promotions":{
+            "inr":900,
+            "usd":15
+        }
+    },
+    "contactDetails":{
+        "email":"",
+        "phone":""
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "override": {
+    "default": "./config/deployment.json"
+  },
+  "jwtsecret": {
+    "default": "secret",
+    "env": "JWT_SECRET"
+  },
+  "refreshsecret": {
+    "default": "refresh_secret",
+    "env": "REFRESH_TOKEN_SECRET"
+  },
+  "jwtexpiry": 2880,
+  "refreshexpiry": 41160,
+  "env": {
+    "default": "prod",
+    "env": "NODE_ENV"
+  },
+  "POSTMAN_API_KEY": {
+    "default": "prod",
+    "env": "POSTMAN_API_KEY"
+  }
+}
