@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: venkynagidi/backend:one
+    ports:
+      - "8083:8083"
+    networks:
+      - backend-network
+
+networks:
+  backend-network:
+    driver: bridge
